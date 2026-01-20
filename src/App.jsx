@@ -15,6 +15,7 @@ import DefaultProps from './DefaultProps'
 import PassingHTMLUsingProps from './PassingHTMLUsingProps'
 import GetInputFieldValue from './GetInputFieldValue'
 import CheckBox from './CheckBOx'
+import RadioButton_Dropdown from './RadioButton_Dropdown'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
+    <RadioButton_Dropdown/>
     <CheckBox/>
     <GetInputFieldValue/>
      <h1>Passing Html using props</h1>
