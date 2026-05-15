@@ -16,6 +16,8 @@ import PassingHTMLUsingProps from './PassingHTMLUsingProps'
 import GetInputFieldValue from './GetInputFieldValue'
 import CheckBox from './CheckBOx'
 import RadioButton_Dropdown from './RadioButton_Dropdown'
+import Loops from './Loops'
+import ReuseComponentInLoop from './ReuseComponentInLoop'
 
 
 function App() {
@@ -37,6 +39,9 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
+    <user/>
+    <ReuseComponentInLoop/>
+    <Loops/>
     <RadioButton_Dropdown/>
     <CheckBox/>
     <GetInputFieldValue/>
