@@ -18,6 +18,11 @@ import CheckBox from './CheckBOx'
 import RadioButton_Dropdown from './RadioButton_Dropdown'
 import Loops from './Loops'
 import ReuseComponentInLoop from './ReuseComponentInLoop'
+import Clock from 'react-clock/src/Clock.js'
+import ClockComponent from './ClockComponent'
+import ClockStyle from './ClockStyle'
+import User from './User'
+import NestedLoop from './NestedLoop'
 
 
 function App() {
@@ -39,7 +44,10 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
-    <user/>
+    <NestedLoop/>
+    <ClockStyle/>
+    
+  
     <ReuseComponentInLoop/>
     <Loops/>
     <RadioButton_Dropdown/>

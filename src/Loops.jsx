@@ -57,13 +57,14 @@ const Loops=()=>{
 
             <h1>Dummy Data</h1>
             <table border="1">
+                <thead>
                 <tr>
                     <td>ID</td>
                     <td>Name</td>
                     <td>Email</td>
                     <td>Age</td>
                 </tr>
-
+                </thead>
                 <tbody>
                 <tr>
                     <td>1</td>

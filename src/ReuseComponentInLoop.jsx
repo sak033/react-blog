@@ -30,6 +30,7 @@ const ReuseComponentInLoop = () => {
       ]
   return (
     <div>
+        <hr />
         
         <h1>Reuse Component In Loop</h1>
         {
@@ -39,7 +40,7 @@ const ReuseComponentInLoop = () => {
                  </div>   
             ))
         }
-
+       <hr />
     </div>
     
 
