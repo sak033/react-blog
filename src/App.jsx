@@ -23,6 +23,12 @@ import ClockComponent from './ClockComponent'
 import ClockStyle from './ClockStyle'
 import User from './User'
 import NestedLoop from './NestedLoop'
+import Hook1 from './Hook1'
+import HandlingDependencyInHooks from './HandlingDependencyInHooks'
+import PropsSideEffectInHook from './PropsSideEffectInHook'
+import DynamicStyle from './DynamicStyle'
+import DynamicStyleTask from './DynamicStyleTask'
+import PersonData from './PersonData'
 
 
 function App() {
@@ -44,6 +50,10 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
+    <PersonData/>
+    <DynamicStyle/>
+    <HandlingDependencyInHooks/>
+    <Hook1/>
     <NestedLoop/>
     <ClockStyle/>
     
