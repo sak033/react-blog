@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import Image from './assets/experience_img.png'
 import PersonData from './PersonData'
+import styles from './DynamicStyleTask.module.css'
 
 const DynamicStyleTask = ({data}) => {
     const [display, setDisplay]=useState(true);
-
-    
-  return (
+return (
     <div>
         <hr />
-         <h1>Dynamic style Task</h1>
+       
+         <h1 className={styles.heading}>Dynamic style Task</h1>
          <button onClick={()=>setDisplay(!display)}>Toggle</button>
 
          {

@@ -29,6 +29,7 @@ import PropsSideEffectInHook from './PropsSideEffectInHook'
 import DynamicStyle from './DynamicStyle'
 import DynamicStyleTask from './DynamicStyleTask'
 import PersonData from './PersonData'
+import StyledComponent from './StyledComponent'
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
+    <StyledComponent/>
     <PersonData/>
     <DynamicStyle/>
     <HandlingDependencyInHooks/>
