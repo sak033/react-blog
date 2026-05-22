@@ -30,6 +30,8 @@ import DynamicStyle from './DynamicStyle'
 import DynamicStyleTask from './DynamicStyleTask'
 import PersonData from './PersonData'
 import StyledComponent from './StyledComponent'
+import ReactBootstrap from './ReactBootstrap'
+import UseRef_Hook from './UseRef_Hook'
 
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
+    <UseRef_Hook/>
+    <ReactBootstrap/>
     <StyledComponent/>
     <PersonData/>
     <DynamicStyle/>
