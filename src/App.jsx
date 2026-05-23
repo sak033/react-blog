@@ -32,6 +32,8 @@ import PersonData from './PersonData'
 import StyledComponent from './StyledComponent'
 import ReactBootstrap from './ReactBootstrap'
 import UseRef_Hook from './UseRef_Hook'
+import UncontrolledElement from './UncontrolledElement'
+import FunctionAsProps from './FunctionAsProps'
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
    let userArray=["sakshi",21,"sakshi@gmail.com"]
   return(
    <div>
+    <FunctionAsProps/>
+    <UncontrolledElement/>
     <UseRef_Hook/>
     <ReactBootstrap/>
     <StyledComponent/>
